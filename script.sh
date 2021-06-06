@@ -53,10 +53,9 @@ if [ -s $FILESFOUND ]; then
   FILE=$theExportFile
   # echo $FILE
   TEMPORARY="/tmp/holding.txt"
-  grep -o "<title.*title>\|^--.*" "$FILE" | sed -e s/\<title\>//g | sed -e s/\<\\/title\>//g >$TEMPORARY
+  tr '\n' ' ' <$FILE | sed 's/\<\/title\>/\<\/title\>\'$'\n/g' | grep -o "<title.*title>\|^--.*" | sed -e s/\<title\>//g | sed -e s/\<\\/title\>//g >$TEMPORARY
 
   NOW=$(date +"%-m-%-d-%-Y_%-k-%-M-%-S")
-
   OUTPUTFILE=~/Desktop/output_$NOW.csv
   # echo $OUTPUTFILE
   # echo "Request ID List" >$OUTPUTFILE
