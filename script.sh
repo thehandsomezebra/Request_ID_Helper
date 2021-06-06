@@ -76,7 +76,7 @@ else
 fi
 
 counter=10
-echo "This screen will self-destruct in $counter seconds!"
+echo "This screen will close in $counter seconds!"
 until [ $counter -lt 1 ]; do
   printf "$counter..."
   sleep 1
