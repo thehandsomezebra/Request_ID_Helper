@@ -25,9 +25,9 @@ cd ~/Desktop && curl https://raw.githubusercontent.com/thehandsomezebra/Request_
 1. Open the Evernote app.
 2. On the sidebar, right/option click on the Notebook of your choice.
 ![Screenshot showing step 2](images/1.png)
-3. Choose to export the .enex file type.
+3. Choose to export the .enex file type. 
 ![Screenshot showing step 3](images/2.png)
-4. Be sure this file is going into your Downloads folder! (This location is important!)
+4. Be sure this file is going into your Downloads folder! (This location is important!) Also - Don't include any spaces! Use an underscore instead.
 ![Screenshot showing step 4](images/3.png)
 5. Did you follow the steps in the setup?  If you haven't done that, I would recommend scrolling up to the First Time Setup and going thru the steps.  You'll need it to keep going.
 6. Now that you have your export file in the *Downloads* folder, and you have the _script.sh_ file... go ahead and click on `script.sh` (which is located on your Desktop) to run it.
@@ -49,7 +49,7 @@ cd ~/Desktop && curl https://raw.githubusercontent.com/thehandsomezebra/Request_
   - Try right/option clicking on the `script.sh` file and choose "Open With >" `Terminal`
 
 - Did you get an error about a file you chose because it had a space in it?
-  - Simply rename your file so that it doesn't have a space in it.  Try no spaces or underscores instead.
+  - Rename your file so that it doesn't have a space in it.  Try no spaces or underscores instead.  The script is a little picky about the filename.
 
 
 
