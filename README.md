@@ -1,7 +1,5 @@
 # Request ID Helper
 
-## Setup and Preparation
-
 > This has been created on a Mac, for a Mac.
 
 > You will need to use the Evernote Desktop App.  If you don't have this installed, please [visit Evernote's site and download it](https://evernote.com/download)
@@ -30,7 +28,7 @@ cd ~/Desktop && curl https://raw.githubusercontent.com/thehandsomezebra/Request_
 5. Did you download & prep the script permissions yet?  If you haven't done that, I would recommend scrolling up to the First Time Setup.  You'll need it to keep going.
 6. Now that you have your export file in the *Downloads* folder, and you have the _script.sh_ file... go ahead and click on `script.sh` (which is located on your Desktop) to run it.
 7. It will open a terminal and prompt you to pick the correct file -- just type the corresponding number and hit Enter.
-8. The script do some magic in the background, and then drop a new file on your Desktop called `output_timestamp.csv`
+8. The script do some magic in the background, and then drop a new file on your Desktop called `output_<timestamp>.csv`
 9. Done!
 
 
